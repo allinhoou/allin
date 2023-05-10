@@ -1,27 +1,42 @@
-header{
-    background-color: rgb(104, 104, 104);
+header {
+    background: #2f1515bb;
 }
 
 nav li{
+    
     display: inline;
+    margin: 0 0 0 15px;
+
 }
 
 nav a{
+    
     text-transform: uppercase;
-
-    color: black;
-
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    
 }
+ nav{
 
-nav li{
-    margin: 0 0 0 15px;
-}
-
-nav{
     position: absolute;
     top: 110px;
-    right: 0;
-}
+    right: 780px;
+
+
+ }
+
+ .produtos li {
+
+    display: inline-block;
+    text-align: center;
+    
+ }
+
+ .produtos{
+
+     width: 940px;
+     margin: 0 auto;
+
+ }
